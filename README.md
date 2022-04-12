@@ -33,7 +33,7 @@ Default hotkeys to show the menu:
     *   Small menu icons are extracted from files for the menu items, you can change the icon in windows and in this menu by using the properties dialog in windows explorer
     *   Folders are monitored (including sub-folders) for any changes, and the menu updates
     *   Every menu has a topmost menu item that allows you to open that corresponding menu's folder in explorer, it's named "Open [FolderPath]"
-    *   Ignores hidden, read only, and system files
+    *   Ignores hidden, and system files
     *   Sort folders then files
 
 &nbsp;
