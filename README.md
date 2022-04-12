@@ -3,7 +3,7 @@
 
 |Author|Organization|Email|Version|Build|      
 ----|----|----|----|----|
-Cristófano Varacolaci|[ObsessedDesigns Studios™, Inc.](https://obsesseddesigns.com)|cristo@obsesseddesigns.com|1.0.0.2|2022.04.10|
+Cristófano Varacolaci|[ObsessedDesigns Studios™, Inc.](https://obsesseddesigns.com)|cristo@obsesseddesigns.com|1.0.0.3|2022.04.12|
 
 &nbsp;
 &nbsp;
