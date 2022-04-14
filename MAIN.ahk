@@ -1,10 +1,14 @@
 ﻿; Created by 		Cristófano Varacolaci
 ; For 			 	ObsessedDesigns Studios™, Inc.
-; Version 			1.0.0.3
+; Version 			1.0.0.4
 ; Build             10:30 2022.04.10
 ;
 ;---- [changes]
-;		
+;
+;	Version 	1.0.0.4
+;	Build		15:35 2022.04.14
+;	Added		Added Close application from menu at top 
+;
 ;	Version 	1.0.0.3
 ;	Build		11:00 2022.04.12
 ;	Added		Option to show or hide extension on menu links 
@@ -23,7 +27,7 @@ WatchFolder(ini_ROOT, "Update", SubTree := True, Watch := 0x03)
 Return
 
 XButton2::
-#z::
+F18::
 	gosub, ShowMenu
 return
 
@@ -32,6 +36,10 @@ Update(Folder, Changes) {
 }
 
 CreateMenu:
+
+	Menu, %ini_ROOT%, add, Close %PROGNAME%, END
+	MsgBox, , Title, %A_ScriptName%
+	Menu, %ini_ROOT%, Icon, Close %PROGNAME%, %A_ScriptName%
 	Menu, %ini_ROOT%, add, Open %ini_ROOT%, OpenFolder
 	ExtractIcon(ini_ROOT, "Open " . ini_ROOT)
 	
