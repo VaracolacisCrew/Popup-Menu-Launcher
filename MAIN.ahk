@@ -38,7 +38,6 @@ Update(Folder, Changes) {
 CreateMenu:
 
 	Menu, %ini_ROOT%, add, Close %PROGNAME%, END
-	MsgBox, , Title, %A_ScriptName%
 	Menu, %ini_ROOT%, Icon, Close %PROGNAME%, %A_ScriptName%
 	Menu, %ini_ROOT%, add, Open %ini_ROOT%, OpenFolder
 	ExtractIcon(ini_ROOT, "Open " . ini_ROOT)
